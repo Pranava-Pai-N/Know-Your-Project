@@ -3,7 +3,8 @@
   "displayName": "Know Your Project",
   "description": "Generate a clean ASCII directory tree structure of your folders with one click for your project readme files.",
   "publisher": "pranava-pai-n",
-  "version": "0.0.1",
+  "icon": "./Icon.png",
+  "version": "0.0.2",
   "type" : "module",
   "repository": {
     "type": "git",
