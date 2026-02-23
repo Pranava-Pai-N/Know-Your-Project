@@ -32,7 +32,7 @@ export function activate(context) {
 			location : vscode.ProgressLocation.Notification,
 			title : "Generating Project Folder Structure ...",
 			cancellable : false,
-		}, async(progress) =>{
+		}, async( progress ) =>{
 
 			return new Promise((resolve) => {
 				setTimeout(async() => {
@@ -40,7 +40,7 @@ export function activate(context) {
 
 					console.log(`Structure for: ${folderPath} is : \n${structure}`);
 
-					const selection = await vscode.window.showInformationMessage("Folder Structure Generated !", "Copy to CLipBoard");
+					const selection = await vscode.window.showInformationMessage("Folder Structure Generated !", "Copy to ClipBoard");
 
 					if(selection === "Copy to CLipBoard"){
 						await vscode.env.clipboard.writeText(structure);
@@ -62,6 +62,8 @@ export function activate(context) {
 }
 
 // This method is called when your extension is deactivated
-export function deactivate() {}
+export function deactivate() {
+	console.log("Thank You for using it . Please activate it again for best usgae in your projects.");
+}
 
 
