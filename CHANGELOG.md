@@ -16,3 +16,8 @@ All notable changes to the Know-Your-Project extension will be documented by me 
 ## [1.0.0]
 
 - Minor file changes and added some changes further changes like custom files ignore and other features will be done in version 1.0.1
+
+
+## [1.0.1]
+
+- Minor command naming bug fixed : in the copy feature preventing users from copying the folder structure

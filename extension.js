@@ -42,7 +42,7 @@ export function activate(context) {
 
 					const selection = await vscode.window.showInformationMessage("Folder Structure Generated !", "Copy to ClipBoard");
 
-					if(selection === "Copy to CLipBoard"){
+					if(selection === "Copy to ClipBoard"){
 						await vscode.env.clipboard.writeText(structure);
 						vscode.window.showInformationMessage("Copied to clipboard!");
 					}

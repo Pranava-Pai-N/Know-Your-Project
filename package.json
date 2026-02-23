@@ -4,7 +4,7 @@
   "description": "Generate a clean ASCII directory tree structure of your folders with one click for your project readme files.",
   "publisher": "pranava-pai-n",
   "icon": "./Icon.png",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type" : "module",
   "repository": {
     "type": "git",
