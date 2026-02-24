@@ -16,10 +16,11 @@
 
 ## 🛠 How to Use
 
-1.  **Open the Explorer**: Navigate to your files in the side bar.
-2.  **Select a Folder**: Right-click on the folder you want to visualize.
-3.  **Run**: Click on **"Know Your Project"** in the context menu.
-4.  **Action**: 
+1. **Exclude specific files**: Add a **kyp.ignore** file in your project directory to seldctively exclude some files or folders from the folder structure diagram or else you can proceed to **Step 2**
+2.  **Open the Explorer**: Navigate to your files in the side bar.
+3.  **Select a Folder**: Right-click on the folder you want to visualize.
+4.  **Run**: Click on **"Know Your Project"** in the context menu.
+5.  **Action**: 
     * Watch the progress notification in the bottom right.
     * Click **"Copy to Clipboard"** to save the text.
     * Or, check the **Debug Console** to see the output.

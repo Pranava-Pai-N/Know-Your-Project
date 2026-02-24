@@ -21,3 +21,8 @@ All notable changes to the Know-Your-Project extension will be documented by me 
 ## [1.0.1]
 
 - Minor command naming bug fixed : in the copy feature preventing users from copying the folder structure
+
+
+## [1.0.2]
+
+- Allowed user to add a kyp.ignore file in the directory to selectively ignore files from the directory for the project structure diagram
