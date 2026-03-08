@@ -26,3 +26,8 @@ All notable changes to the Know-Your-Project extension will be documented by me 
 ## [1.0.2]
 
 - Allowed user to add a kyp.ignore file in the directory to selectively ignore files from the directory for the project structure diagram
+
+
+### [1.0.3]
+---
+- Finalized the first stable production release with comprehensive README updates and critical performance fixes.
